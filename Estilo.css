@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(195, 241, 9);
+    background-color: rgb(0, 0, 0);
 }
 .contenedor {
     display: grid;
@@ -7,23 +7,23 @@ body {
     min-height: 100vh;
 }
 header {
-    background-color: red;
+    background-color: rgb(235, 200, 2);
 }
 nav {
-    background-color: black;
+    background-color: rgb(116, 93, 216);
 }
 section {
     background-color: white;
 }
 footer {
-    background-color: blueviolet;
+    background-color: rgb(225, 203, 245);
 }
 .contenido {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .L {
-    background-color: aqua;
+    background-color: #00ffff;
 }
 .A {
     display: grid;
