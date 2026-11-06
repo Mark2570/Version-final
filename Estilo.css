@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(195, 241, 9);
+}
+.contenedor {
+    display: grid;
+    grid-template-rows: auto 300px 1fr 1fr auto;
+    min-height: 100vh;
+}
+header {
+    background-color: red;
+}
+nav {
+    background-color: black;
+}
+section {
+    background-color: white;
+}
+footer {
+    background-color: blueviolet;
+}
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.L {
+    background-color: aqua;
+}
+.A {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}

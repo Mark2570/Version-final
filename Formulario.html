@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="datos" action="#" method="POST">
+        <label for="numero">Número</label><br>
+        <input type="number" id="numero" name="numero" style="color: rgb(34, 255, 0);"><br>
+        
+        <label for="correo">Correo electrónico</label><br>
+        <input type="email" id="correo" name="correo" style="color: blueviolet;"><br>
+        
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" style="color: rgb(255, 0, 183);"><br>
+        
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="apellido" style="height: 5cm; color: rgb(255, 0, 55);"><br>
+        
+        <label for="fecha">Fecha de nacimiento</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+        
+        <label for="web">Página web</label><br>
+        <input type="url" id="web" name="web"><br>
+        
+        <fieldset>
+            <legend>¿Qué estándares conoces?</legend>
+            <input type="checkbox" id="html5" name="estandares" value="HTML5" checked>
+            <label for="html5">HTML5</label><br>
+            
+            <input type="checkbox" id="css3" name="estandares" value="CSS3">
+            <label for="css3">CSS3</label><br>
+            
+            <input type="checkbox" id="js" name="estandares" value="JavaScript">
+            <label for="js">JavaScript</label><br>
+        </fieldset>
+        
+        <label for="comentarios">Comentarios</label><br>
+        <textarea id="comentarios" name="comentarios" cols="15" rows="6"></textarea><br>
+        
+        <input type="button" style="color: rgb(255, 145, 0);" value="Enviar informacion">
+    </form>
+    <img src="don.jpf_.webp" alt="Presentador de noticias" width="300" height="250">
+</body>
+</html>
