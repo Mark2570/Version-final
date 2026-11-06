@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
 }
 .contenedor {
     display: grid;
@@ -10,13 +10,13 @@ header {
     background-color: rgb(235, 200, 2);
 }
 nav {
-    background-color: rgb(116, 93, 216);
+    background-color: rgb(160, 160, 160);
 }
 section {
     background-color: white;
 }
 footer {
-    background-color: rgb(225, 203, 245);
+    background-color: rgb(251, 249, 255);
 }
 .contenido {
     display: grid;
